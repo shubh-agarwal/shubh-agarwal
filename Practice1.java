@@ -1,4 +1,5 @@
 import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Practice1 {
@@ -17,7 +18,7 @@ public class Practice1 {
             arr1[i]= in.nextInt();
             System.out.println(arr1[i]);
         }
-        System.out.println(arr1.toString());
+        System.out.println(Arrays.toString(arr1));
 
         for(int num:arr){
             System.out.println(num);
